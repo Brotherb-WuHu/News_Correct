@@ -1,0 +1,18 @@
+input::file-selector-button {
+  visibility: hidden;
+}
+
+.input-upload {
+  color: transparent;
+}
+
+.input-upload::before {
+  content: 'Select some files';
+  display: inline-block;
+  background: yellowgreen;
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  cursor: pointer;
+  color: black;
+}
